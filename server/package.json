@@ -1,0 +1,28 @@
+{
+  "name": "leek-server",
+  "version": "0.1.0",
+  "description": "2D Game Server",
+  "main": "leek.js",
+  "dependencies": {
+    "mysql": "^2.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spsnk/projectleek.git"
+  },
+  "keywords": [
+    "game",
+    "server"
+  ],
+  "author": "Salvador Paz",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/spsnk/projectleek/issues"
+  },
+  "homepage": "https://github.com/spsnk/projectleek#readme"
+}
