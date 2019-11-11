@@ -62,7 +62,7 @@ Table.prototype.q = function(op,q,arg,c){ //Set player ID offline
 	//return this;
 }
 //Table.prototype.__defineSetter__('data',function
-var db = require("mysql").createClient({
+var db = require("mysql").createConnection({
 	host : 'localhost',
 	port : '3306',
 	user : 'projectleek',
