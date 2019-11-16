@@ -3,7 +3,7 @@
     "es6": true,
     "node": true
   },
-  "extends": ["google"],
+  "extends": ["plugin:@typescript-eslint/recommended", "google"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -13,6 +13,6 @@
     "sourceType": "module"
   },
   "rules": {
-    "brace-style": [2, "allman"]
+    "brace-style": [1, "allman"]
   }
 }
